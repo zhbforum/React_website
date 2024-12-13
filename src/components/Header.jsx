@@ -6,7 +6,7 @@ const Header = () =>
   return (
     <header className="header">
       <div className="logo">
-        <img src="/images/logo.png" alt="Website"/>
+        <a href="Header.jsx"><img src="/images/logo.png" alt="Website"/></a>
         </div>
       <nav>
         <ul className="nav-links">
@@ -18,8 +18,8 @@ const Header = () =>
         </ul>
       </nav>
       <div className="auth-buttons">
-        <button className="sign-in">Sign In</button>
-        <button className="get-started">Get Started</button>
+        <button className="sign-in"> <a href="#sign-in">Sign In</a></button>
+        <button className="get-started"><a href="get-started">Get Started</a></button>
       </div>
     </header>
   );
