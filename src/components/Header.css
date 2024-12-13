@@ -25,11 +25,15 @@
     margin: 0 15px;
   }
   
-  .nav-links a 
+  .nav-links a
   {
-    color: #fff;
+    color: white;
     text-decoration: none;
   }
+
+ .nav-links a:hover {
+  color: #f4c10f;
+ }
   
   .auth-buttons button 
   {
