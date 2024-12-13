@@ -1,11 +1,13 @@
 import React from 'react';
 import './Header.css';
 
-const Header = () => 
+const Header = () =>  
 {
   return (
     <header className="header">
-      <div className="logo">Rise Creative</div>
+      <div className="logo">
+        <img src="/images/logo.png" alt="Website"/>
+        </div>
       <nav>
         <ul className="nav-links">
           <li><a href="#home">Home</a></li>

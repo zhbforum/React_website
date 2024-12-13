@@ -52,3 +52,8 @@
     color: #000;
   }
   
+  .logo img 
+  {
+    width: 70px;
+    height: auto;
+  }
