@@ -19,7 +19,7 @@ const Header = () =>
       </nav>
       <div className="auth-buttons">
         <button className="sign-in"> <a href="#sign-in">Sign In</a></button>
-        <button className="get-started"><a href="get-started">Get Started</a></button>
+        <button className="get-started"><a href="get-started">Sign up</a></button>
       </div>
     </header>
   );
