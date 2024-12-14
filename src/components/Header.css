@@ -4,16 +4,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.918);
     color: #fff;
   }
-  
-  .logo 
-  {
-    font-weight: bold;
-    width: auto;
-  }
-  
+
   .nav-links 
   {
     display: flex;
@@ -37,7 +31,7 @@
 
   .auth-buttons button 
   {
-    margin-left: 10px;
+    margin-left: 5px;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -48,12 +42,17 @@
     color: rgba(156, 142, 142, 0.658);
     text-decoration: none;
   }
+
   .sign-in a {
+    border: 1px solid rgb(155, 154, 154);
+    border-radius: 20px;
+    padding: 8px;
     color: aliceblue;
     text-decoration: none;
   }
   .sign-in a:hover {
-    color: #ecd269;
+    background-color: rgba(239, 239, 255, 0.171);
+    
   }
 
   .get-started 
@@ -68,11 +67,12 @@
     
   }
   .get-started:hover {
-    background-color: rgb(250, 250, 228);
+    background-color: rgba(239, 239, 255, 0.575);
   }
   
   .logo img 
   {
-    width: 70px;
-    height: auto;
+    height: 50px;
+    width: auto;
+    
   }
