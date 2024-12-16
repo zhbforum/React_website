@@ -9,14 +9,14 @@ const Footer = () => {
                     <div className="footer-logo-section">
                         <img src="/images/logo.png" alt="Logo" className="footer-logo" />
                         <p className="footer-description">
-                        Creative design agency.<br/>
-                        All Rights Reserved 2024 
-                        
+                            Creative design agency.<br />
+                            All Rights Reserved 2024
+
                         </p>
                         <div className="footer-social">
                             <img src="/images/facebook.png" alt="Facebook" />
                             <img src="/images/instagram.png" alt="Instagram" />
-                            <img src="/images/xlogo.png" alt="Xlogo" />
+                            <img src="/images/twitter.png" alt="Xlogo" />
                         </div>
                     </div>
                 </div>
@@ -50,6 +50,17 @@ const Footer = () => {
                             <li>Contact</li>
                             <li>FAQ</li>
                             <li>Partners</li>
+                        </ul>
+                    </div>
+                    <div className="footer-column-contact">
+                        <h4>Contact Us</h4>
+                        <ul>
+                            <li><img src="./images/location.png" alt="Adress" className="icon" /></li>
+                            <span>41 Pilgrm Avenue, Chevy Chase, Md 20815</span>
+                            <li><img src="./images/phone.png" alt="Phone" className="icon" /> </li>
+                            <span>+01234 567 890</span>
+                            <li><img src="./images/email.png" alt="Email" className="icon" /></li>
+                            <span>info@agency.com</span>
                         </ul>
                     </div>
                 </div>

@@ -50,9 +50,9 @@
   
   .footer-social img {
     width: auto;
-    height: 30px;
+    height: 25px;
     margin-inline: 5px;
-    margin-left: 28px;
+    margin-left: 33px;
     cursor: pointer;
   }
   
@@ -83,3 +83,32 @@
   .footer-column ul li:hover {
     color: #ffd700;
   }
+
+  .footer-column-contact  {
+
+  }
+  .footer-column-contact h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+
+  .footer-column-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-column-contact ul span {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #aaa;
+  }
+
+  .icon {
+    width: auto;
+    height: 10px; 
+}
