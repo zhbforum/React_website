@@ -56,7 +56,7 @@ const Footer = () => {
                         <h4>Contact Us</h4>
                         <ul>
                             <li><img src="./images/location.png" alt="Adress" className="icon" />
-                            <span>41 Pilgrm Avenue, Chevy Chase, Md 20815</span>
+                            <span>41 Pilgrm Avenue, Chevy Chase</span>
                             </li>
                             <li><img src="./images/phone.png" alt="Phone" className="icon" />
                             <span>+01234 567 890</span>
