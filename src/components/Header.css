@@ -26,7 +26,7 @@
   }
 
  .nav-links a:hover {
-  color: #fd9801;
+  color: #ffd700;
  }
 
   .auth-buttons button 
@@ -58,7 +58,7 @@
   .get-started 
   {
     border-radius: 20px;
-    background: #fd9801;
+    background: #ffd700;
     color: #000;
   }
   .get-started a {
@@ -74,5 +74,6 @@
   {
     height: 50px;
     width: auto;
-    
   }
+
+  
