@@ -85,7 +85,7 @@
   }
 
   .footer-column-contact  {
-
+    padding-left: 40px;
   }
   .footer-column-contact h4 {
     font-size: 16px;
@@ -102,6 +102,10 @@
     align-items: flex-start;
   }
 
+  .footer-column-contact ul li {
+    margin-bottom: 8px;
+  }
+
   .footer-column-contact ul span {
     margin-bottom: 8px;
     font-size: 14px;
@@ -110,5 +114,6 @@
 
   .icon {
     width: auto;
-    height: 10px; 
+    height: 15px;
+    margin-right: 15px; 
 }

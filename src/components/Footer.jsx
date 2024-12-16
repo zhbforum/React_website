@@ -55,12 +55,15 @@ const Footer = () => {
                     <div className="footer-column-contact">
                         <h4>Contact Us</h4>
                         <ul>
-                            <li><img src="./images/location.png" alt="Adress" className="icon" /></li>
+                            <li><img src="./images/location.png" alt="Adress" className="icon" />
                             <span>41 Pilgrm Avenue, Chevy Chase, Md 20815</span>
-                            <li><img src="./images/phone.png" alt="Phone" className="icon" /> </li>
+                            </li>
+                            <li><img src="./images/phone.png" alt="Phone" className="icon" />
                             <span>+01234 567 890</span>
-                            <li><img src="./images/email.png" alt="Email" className="icon" /></li>
+                             </li>
+                            <li><img src="./images/email.png" alt="Email" className="icon" />
                             <span>info@agency.com</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
