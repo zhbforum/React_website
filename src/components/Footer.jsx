@@ -1,5 +1,12 @@
 import React from "react";
 import './Footer.css';
+import logo from '../assets/images/logo.png';
+import email from '../assets/images/email.png';
+import facebook from '../assets/images/facebook.png';
+import instagram from '../assets/images/instagram.png';
+import location from '../assets/images/location.png';
+import phone from '../assets/images/phone.png';
+import twitter from '../assets/images/twitter.png';
 
 const Footer = () => {
     return (
@@ -7,16 +14,16 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="footer-left">
                     <div className="footer-logo-section">
-                        <img src="/images/logo.png" alt="Logo" className="footer-logo" />
+                        <img src={logo} alt="Logo" className="footer-logo" />
                         <p className="footer-description">
                             Creative design agency.<br />
                             All Rights Reserved 2024
 
                         </p>
                         <div className="footer-social">
-                            <img src="/images/facebook.png" alt="Facebook" />
-                            <img src="/images/instagram.png" alt="Instagram" />
-                            <img src="/images/twitter.png" alt="Xlogo" />
+                            <img src={facebook} alt="Facebook" />
+                            <img src={instagram} alt="Instagram" />
+                            <img src={twitter} alt="Twitter" />
                         </div>
                     </div>
                 </div>
@@ -55,13 +62,13 @@ const Footer = () => {
                     <div className="footer-column-contact">
                         <h4>Contact Us</h4>
                         <ul>
-                            <li><img src="./images/location.png" alt="Adress" className="icon" />
+                            <li><img src={location} alt="Adress" className="icon" />
                             <span>41 Pilgrm Avenue, Chevy Chase</span>
                             </li>
-                            <li><img src="./images/phone.png" alt="Phone" className="icon" />
+                            <li><img src={phone} alt="Phone" className="icon" />
                             <span>+01234 567 890</span>
                              </li>
-                            <li><img src="./images/email.png" alt="Email" className="icon" />
+                            <li><img src={email} alt="Email" className="icon" />
                             <span>info@agency.com</span>
                             </li>
                         </ul>

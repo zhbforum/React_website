@@ -5,9 +5,9 @@ import dropbox from '../assets/images/Dropbox.png';
 import amazon from '../assets/images/Amazon.png';
 import atlassian from '../assets/images/Atlassian.png';
 import hubspot from '../assets/images/Hubspot.png';
-import logo from '../assets/images/logo.png';
+import team from '../assets/images/team.png'
 
-const HomePage = () => {
+function HomePage() {
   return (
     <div className="hero-section">
       <div className="hero-left">
@@ -38,15 +38,8 @@ const HomePage = () => {
       </div>
 
       <div className="hero-right">
-        <img src={logo} alt="Team Working" />
-        <div className="market-card">
-          <p>Market Static</p>
-          <h3>Agency Overview</h3>
-          <p>+30% <span>Apr</span></p>
-          <div className="chart"></div>
-        </div>
+        <img src={team} alt="Team Working" />
       </div>
-
       <div className="partner-logos">
         <img src={google} alt="Google" />
         <img src={dropbox} alt="Dropbox" />
@@ -56,6 +49,6 @@ const HomePage = () => {
       </div>
     </div>
   );
-};
+}
 
 export default HomePage;

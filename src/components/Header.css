@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.918);
+    background-color: #767474;
     color: #fff;
   }
 
@@ -12,6 +12,7 @@
   {
     display: flex;
     list-style: none;
+    margin-left: 110px;
   }
   
   .nav-links li 
@@ -28,7 +29,6 @@
  .nav-links a:hover {
   color: #ffd700;
  }
-
   .auth-buttons button 
   {
     margin-left: 5px;
@@ -67,7 +67,7 @@
     
   }
   .get-started:hover {
-    background-color: rgba(239, 239, 255, 0.575);
+    background-color: #d4a00d;
   }
   
   .logo img 

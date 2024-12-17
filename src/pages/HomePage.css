@@ -1,24 +1,27 @@
 .hero-section 
 {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  background-color: rgba(37, 37, 37, 0.918);
+  justify-content: space-between;
+  background-color: #767474;
   color: #fff;
   padding: 3rem 5rem;
   gap: 2rem;
+  width: 100vw;
 }
 
 .hero-left 
 {
   flex: 1;
   max-width: 50%;
+  text-align: left;
+  margin-right: 60rem;
 }
 
 .hero-left h1 
 {
-  font-size: 3.5rem;
+  font-size: 4.3rem;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 1.5rem;
@@ -26,8 +29,8 @@
 
 .hero-left p 
 {
-  color: #bbb;
-  font-size: 1.1rem;
+  color:white;
+  font-size: 1.1em;
   margin-bottom: 2rem;
 }
 
@@ -37,14 +40,13 @@
   align-items: center;
   gap: 1rem;
 }
-
 .yellow-button 
 {
   background-color: #f7c63b;
   color: #000;
-  padding: 0.7rem 1.5rem;
+  padding: 1rem 2rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -62,11 +64,16 @@
   cursor: pointer;
 }
 
+.video-link:hover {
+  color: #bbb;
+}
+
 .hero-stats 
 {
   display: flex;
   gap: 3rem;
   margin-top: 2rem;
+  margin-right: 5rem;
 }
 
 .hero-stats h3 
@@ -78,36 +85,41 @@
 .hero-stats p 
 {
   margin: 0;
-  color: #bbb;
+  color: white;
 }
 
 .hero-right 
 {
-  flex: 1;
-  position: relative;
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+height: auto;
+padding-left: 55rem;
+margin-top: -470px;
+
+
 }
 
 .hero-right img 
 {
   width: 100%;
-  max-width: 500px;
+  max-width: 1000px;
   border-radius: 10px;
+  height: auto;
 }
 
 .market-card 
 {
   position: absolute;
-  bottom: 10%;
-  left: 10%;
+  bottom: -20%;
+  left: -20%;
   background-color: #fff;
   color: #000;
   padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
-  width: 180px;
+  max-width: 200px;
 }
 
 .market-card p 
@@ -127,8 +139,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
   margin-top: 3rem;
+  flex-wrap: wrap;
 }
 
 .partner-logos img 
