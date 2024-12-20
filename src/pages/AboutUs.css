@@ -1,0 +1,70 @@
+.about-us {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-section,
+  .why-choose-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .about-content,
+  .why-choose-details {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .about-image,
+  .why-choose-image {
+    flex: 1;
+  }
+  
+  .about-image img,
+  .why-choose-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .read-more-btn {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #ffaa00;
+  }
+  
+  .why-choose-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .detail-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #ffaa00;
+  }
+  
+  .detail-item h4 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .detail-item p {
+    margin: 0;
+    color: #555;
+  }
+  
