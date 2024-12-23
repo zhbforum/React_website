@@ -1,5 +1,5 @@
 .footer {
-    background-color: #767474;
+    background-color: rgba(1, 1, 2, 0.925);
     margin-top: auto;
     height: 320px;
 }
@@ -37,7 +37,7 @@
   
   .footer-logo {
     width: auto;
-    height: 90px;
+    height: 70px;
     margin-bottom: 10px;
     padding-left: 65px;
   }

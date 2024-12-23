@@ -7,19 +7,20 @@ const AboutUs = () => {
   return (
     <div className="about-us">
       <section className="about-section">
-        <div className="about-content">
-          <h2>We are skilled in providing superior services</h2>
-          <p>
-            Customer satisfaction is such a key part of many successful
-            businesses. Most companies have...
-          </p>
-          <button className="read-more-btn">Read More →</button>
-        </div>
         <div className="about-image">
           <img
             src={About}
             alt="Team working"
           />
+        </div>
+        <div className="about-content">
+          <button className="about-us-btn">ABOUT US</button>
+          <h2>We are skilled in providing superior services</h2>
+          <p>
+            Customer satisfaction is such a key part of many successful
+            businesses.
+          </p>
+          <button className="read-more-btn">Read More →</button>
         </div>
       </section>
 

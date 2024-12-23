@@ -1,44 +1,58 @@
 .about-us {
+    margin-top: 50px;
     padding: 20px;
     font-family: Arial, sans-serif;
+    background-color: white;
   }
   
-  .about-section,
-  .why-choose-us {
+  .about-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 50px;
   }
   
-  .about-content,
-  .why-choose-details {
+  .about-content {
     flex: 1;
-    margin-right: 20px;
+    color: white;
+    margin-left: 100px;
+  }
+
+  .about-content h2 {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.993);
   }
   
-  .about-image,
-  .why-choose-image {
+  .about-content p {
+    font-size: 1.3em;
+    color: black;
+  }
+
+  .about-image img {
     flex: 1;
+    display: flex;
+    border-radius: 10px;
+    padding-left: 150px;
   }
-  
-  .about-image img,
-  .why-choose-image img {
-    width: 100%;
-    border-radius: 8px;
+  .about-us-btn {
+    padding: 10px 20px;
+    background-color: rgba(245, 245, 190, 0.849);
+    color: black;
+    border: none;
+    border-radius: 20px;
   }
-  
   .read-more-btn {
     padding: 10px 20px;
-    background-color: #ffcc00;
-    color: #000;
+    background-color: #000000;
+    color: yellow;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
   }
   
   .read-more-btn:hover {
-    background-color: #ffaa00;
+    background-color: rgba(30, 30, 31, 0.856);
   }
   
   .why-choose-details {

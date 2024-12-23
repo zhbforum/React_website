@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #767474;
+    background-color: rgba(1, 1, 2, 0.925);
     color: #fff;
   }
 
@@ -41,6 +41,7 @@
     background-color: transparent;
     color: rgba(156, 142, 142, 0.658);
     text-decoration: none;
+    transition: background-color 0.3s ease;
   }
 
   .sign-in a {
@@ -60,6 +61,7 @@
     border-radius: 20px;
     background: #ffd700;
     color: #000;
+    transition: background-color 0.3s ease;
   }
   .get-started a {
     color:  black;
@@ -74,6 +76,7 @@
   {
     height: 50px;
     width: auto;
+    padding-left: 20px;
   }
 
   
