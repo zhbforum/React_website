@@ -36,7 +36,7 @@
   .about-image img {
     flex: 1;
     display: flex;
-    border-radius: 10px;
+    border-radius: 20px;
     padding-left: 300px;
   }
   .about-us-btn {
