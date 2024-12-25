@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
 import AboutUs from './pages/AboutUs';
 import Service from './pages/Service'
+import ReadyToUse from './pages/ReadyToUse';
 import './App.css';
 
 function App() 
@@ -16,6 +17,7 @@ function App()
       </main>
       <AboutUs/>
       <Service/>
+      <ReadyToUse/>
       <Footer />
     </div>
   );
