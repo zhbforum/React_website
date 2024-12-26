@@ -37,9 +37,10 @@ const ReadyToUse = () =>
   return (
     <div className="ready-to-use">
       <div className="title-container">
-        <p className="subtitle">Ready To Use</p>
+        <button className="subtitle-btn">Ready To Use</button>
         <h2 className="main-title">Elegant And Impressive Inner Pages</h2>
       </div>
+
       <div className="cards-container">
         {items.map((item, index) => 
         (
@@ -49,7 +50,7 @@ const ReadyToUse = () =>
               <h3 className="card-title">{item.title}</h3>
               <p className="card-description">{item.description}</p>
               <a href={item.link} className="card-link">
-                Read Case Study →
+                <b>Read Case Study →</b>
               </a>
             </div>
           </div>

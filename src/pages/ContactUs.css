@@ -3,12 +3,13 @@
     justify-content: space-between;
     padding: 2rem;
     background-color: rgba(250, 249, 249, 0.664);
-    margin-top: 250px;
+    margin-top: 150px;
   }
   
   .contact-info {
     flex: 1;
     padding-right: 2rem;
+    padding-left: 3rem;
 
   }
   
@@ -40,7 +41,7 @@
     padding: 0;
     line-height: 1.5;
     font-size: 1rem;
-    color: #555;
+    color: #1b1b1b;
   }
   .contact-details img {
     padding-right: 15px;
@@ -52,6 +53,7 @@
     color: white;
     padding: 2rem;
     border-radius: 0.5rem;
+    margin-right: 2rem;
   }
   
   .contact-form form {
@@ -60,30 +62,36 @@
   }
   
   .contact-form label {
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
     font-size: 1rem;
+    color: #bdbbbb;
   }
   
+
   .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-    border: none;
-    border-radius: 0.25rem;
-  }
-  
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 0.5rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  outline: none;
+}
   .contact-form button {
-    background-color: #ffc107;
+    background-color: rgb(240, 240, 8);
     color: black;
-    padding: 0.5rem 1rem;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
     border: none;
-    border-radius: 0.25rem;
+    border-radius: 20px;
     font-size: 1rem;
     cursor: pointer;
     align-self: flex-start;
+    transition: background-color 0.3s ease;
   }
   
   .contact-form button:hover {
-    background-color: #e0a800;
+    background-color: rgba(236, 238, 205, 0.856);
   }

@@ -23,22 +23,11 @@ const ContactUs = () => {
   
         <div className="contact-form">
           <form>
-            <label>
-              Your Name
-              <input type="text" placeholder="Manowar Hossain" />
-            </label>
-            <label>
-              Your Email
-              <input type="email" placeholder="Your Email" />
-            </label>
-            <label>
-              Website
-              <input type="url" placeholder="Your Website" />
-            </label>
-            <label>
-              Tell About Your Project
-              <textarea placeholder="Your Message" rows="4"></textarea>
-            </label>
+              <input type="text" placeholder="Your Name" className="input-underline" />      
+              <input type="email" placeholder="Your Email" className="input-underline" />
+              <input type="url" placeholder="Your Website" className="input-underline" />
+              <textarea placeholder="Your Message" rows="2" className="input-underline"></textarea>
+            
             <button type="submit">Submit</button>
           </form>
         </div>

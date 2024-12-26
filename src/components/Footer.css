@@ -1,120 +1,147 @@
 .footer {
-    background-color: rgba(1, 1, 2, 0.925);
-    margin-top: auto;
-    height: 320px;
+  background-color: rgba(1, 1, 2, 0.925);
+  margin-top: auto;
+  height: auto; 
+  padding: 20px 0;
 }
 
-
 .footer-container {
-    display: flex;
-    justify-content: space-between; 
-    align-items: flex-start;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 45px 20px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-left {
+  flex: 0 0 100%; 
+  margin-bottom: 20px; 
+  text-align: center; 
+}
+
+.footer-right {
+  display: flex;
+  flex-wrap: wrap; 
+  flex: 0 0 100%;
+  justify-content: space-between;
+  gap: 20px;
+  margin-left: 20px;
+}
+
+.footer-logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 700px;
+}
+
+.footer-logo {
+  width: auto;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.footer-description {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 15px;
+  text-align: center; 
+}
+
+.footer-social img {
+  width: auto;
+  height: 25px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.footer-column {
+  flex: 1 1 calc(33.333% - 20px);
+  margin-bottom: 20px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  font-size: 14px;
+  color: #aaa;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.footer-column ul li:hover {
+  color: #ffd700;
+}
+
+.footer-column-contact {
+  flex: 1 1 calc(33.333% - 20px);
+}
+
+.footer-column-contact h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-column-contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-column-contact ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column-contact ul span {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.icon {
+  width: auto;
+  height: 15px;
+  margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
   }
-  
-  .footer-left {
-    flex: 0 0 25%;
-    position: relative;
-    left: -250px;
-    bottom: 10px;
+
+  .footer-column {
+      flex: 1 1 100%; 
+      text-align: center; 
+  }
+
+  .footer-column-contact {
+      flex: 1 1 100%;
   }
 
   .footer-right {
-    display: flex;
-    flex: 0 0 75%;
-    justify-content: space-between;
-    padding-left: 300px;
+      flex-direction: column;
+      align-items: center;
   }
-  
-  .footer-logo-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 20px;
-  }
-  
-  .footer-logo {
-    width: auto;
-    height: 70px;
-    margin-bottom: 10px;
-    padding-left: 65px;
-  }
-  
-  .footer-description {
-    font-size: 14px;
-    color: #aaa;
-    margin-bottom: 15px;
-    padding-left: 35px;
-  }
-  
+
   .footer-social img {
-    width: auto;
-    height: 25px;
-    margin-inline: 5px;
-    margin-left: 33px;
-    cursor: pointer;
+      margin: 5px auto;
   }
-  
-  
-  .footer-column {
-    margin-right: 36px;
-  }
-  
-  .footer-column h4 {
-    font-size: 16px;
-    margin-bottom: 15px;
-    color: #fff;
-  }
-  
-  .footer-column ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .footer-column ul li {
-    font-size: 14px;
-    color: #aaa;
-    cursor: pointer;
-    margin-bottom: 15px;
-  }
-  
-  .footer-column ul li:hover {
-    color: #ffd700;
-  }
-
-  .footer-column-contact  {
-    padding-left: 40px;
-  }
-  .footer-column-contact h4 {
-    font-size: 16px;
-    margin-bottom: 15px;
-    color: #fff;
-  }
-
-  .footer-column-contact ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .footer-column-contact ul li {
-    margin-bottom: 8px;
-  }
-
-  .footer-column-contact ul span {
-    margin-bottom: 8px;
-    font-size: 14px;
-    color: #aaa;
-  }
-
-  .icon {
-    width: auto;
-    height: 15px;
-    margin-right: 15px; 
 }
