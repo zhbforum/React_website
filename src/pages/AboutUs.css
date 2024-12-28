@@ -1,7 +1,6 @@
 .about-us {
   margin-top: 100px;
   padding: 20px;
-  font-family: Arial, sans-serif;
   background-color: white;
 }
 
@@ -49,11 +48,11 @@
   color: black;
   border: none;
   border-radius: 20px;
-  cursor: pointer;
 }
 
 .read-more-btn {
   padding: 10px 20px;
+  margin-top: 30px;
   background-color: #000000;
   color: yellow;
   border: none;
@@ -66,145 +65,24 @@
   background-color: rgba(30, 30, 31, 0.856);
 }
 
-.why-choose-details {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin: 20px auto;
-  max-width: 800px;
-}
-
-.choose-main {
-  margin: 0;
-}
-
-.why-choose-us {
-  padding: 20px;
-  margin: 100px auto;
-  text-align: center;
-}
-
-.why-choose-us-btn {
-  padding: 10px 20px;
-  background-color: rgba(245, 245, 190, 0.849);
-  color: black;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
-.detail-item img {
-  width: 60px;
-  height: auto;
-}
-
-.detail-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-}
-
-.why-choose-us h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.satisfaction {
-  font-size: 1.2rem;
-  color: #555;
-  margin: 0 auto 20px;
-  max-width: 600px;
-}
-
-.icon {
-  font-size: 24px;
-  color: #ffaa00;
-}
-
-.detail-item h4 {
-  margin: 0;
-  font-size: 1.5rem;
-}
-
-.detail-item p {
-  margin: 0;
-  color: #555;
-  margin-top: 10px;
-  max-width: 400px;
-}
-
-.why-choose-image img {
-  display: block;
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  border-radius: 20px;
-  margin: 20px auto;
-}
-
-/* Медиа-запросы для адаптации */
-@media (max-width: 1024px) {
-  .about-content h2 {
-    font-size: 2rem;
-  }
-
-  .about-content p {
-    font-size: 1rem;
-  }
-
-  .why-choose-details {
-    gap: 15px;
-  }
-
-  .why-choose-us h3 {
-    font-size: 1.8rem;
-  }
-
-  .satisfaction {
-    font-size: 1rem;
-  }
-
-  .detail-item {
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-  }
-
-  .detail-item img {
-    width: 50px;
-  }
-}
-
-@media (max-width: 768px) {
+@media (min-width: 1024px) and (max-width: 1366px) {
   .about-section {
-    flex-direction: column;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
   }
 
   .about-content h2 {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
+    text-align: left;
   }
 
   .about-content p {
-    font-size: 0.9rem;
-  }
-
-  .why-choose-us h3 {
-    font-size: 1.5rem;
-  }
-
-  .satisfaction {
-    font-size: 0.9rem;
-  }
-
-  .detail-item p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
+    text-align: justify;
   }
 
   .about-image img {
-    max-width: 400px;
-  }
-
-  .why-choose-image img {
     max-width: 500px;
   }
 }
