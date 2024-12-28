@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React_website/static/css/main.9d24ab31.css",
+    "main.js": "/React_website/static/js/main.8d3e0047.js",
+    "static/media/team.png": "/React_website/static/media/team.bfa23d943a42481c0ec2.png",
+    "static/media/About.png": "/React_website/static/media/About.b51dc694d402dae9752c.png",
+    "static/media/Ceramic.png": "/React_website/static/media/Ceramic.e7d208dfe56580af1d1e.png",
+    "static/media/Design.png": "/React_website/static/media/Design.24a8dd4704f15359fead.png",
+    "static/media/Hotel.png": "/React_website/static/media/Hotel.8e23db775237492d5d38.png",
+    "static/media/background-lines.png": "/React_website/static/media/background-lines.3608af76bf4747d75af9.png",
+    "index.html": "/React_website/index.html",
+    "main.9d24ab31.css.map": "/React_website/static/css/main.9d24ab31.css.map",
+    "main.8d3e0047.js.map": "/React_website/static/js/main.8d3e0047.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d24ab31.css",
+    "static/js/main.8d3e0047.js"
+  ]
+}
